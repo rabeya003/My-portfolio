@@ -1,5 +1,6 @@
 body{
     font-family: 'Poppins', sans-serif;
+    margin: 0;
 }
 h1{
     font-size: 40px;
@@ -10,6 +11,7 @@ h1{
 }
 section{
     display: flex;
+    margin-bottom: 100px;
 }
 .half-width{
     width: 50%;
@@ -20,10 +22,21 @@ section{
 }
 .link-button{
     text-decoration: none;
-    background-image: linear-gradient(rgb(120, 215, 237),rgb(48, 111, 227));
+    background-image: linear-gradient(rgb(150, 153, 154),rgb(56, 58, 62));
     
     color: white;
     font-weight: 700;
     padding: 10px 40px;
     border-radius: 5px;
 }
+.first-sec{
+    background-image: url(images/b-3.jpg);
+    background-position: right;
+    background-repeat: no-repeat;
+}
+.half img{
+    width: 50%;
+}
+
+
+
