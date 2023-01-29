@@ -3,15 +3,18 @@ body{
     margin: 0;
 }
 h1{
+    font-size: 50px;
+   
+}
+h2{
     font-size: 40px;
-    
 }
 .org{
     color: rgb(39, 39, 131);
 }
-section{
+.Flexible-container{
     display: flex;
-    margin-bottom: 100px;
+    margin-bottom: 150px;
 }
 .half-width{
     width: 50%;
@@ -23,7 +26,6 @@ section{
 .link-button{
     text-decoration: none;
     background-image: linear-gradient(rgb(150, 153, 154),rgb(56, 58, 62));
-    
     color: white;
     font-weight: 700;
     padding: 10px 40px;
@@ -36,6 +38,19 @@ section{
 }
 .half img{
     width: 50%;
+}
+.developer{
+    box-shadow: 10px 10px 40px gray;
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 20px;
+    border-radius: 5px;
+    border-left: 7px solid rgb(80, 107, 243);
+}
+footer{
+    text-align: center;
+    font-size: 10px;
 }
 
 
